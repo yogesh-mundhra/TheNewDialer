@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		26D8ABEF2363ADB5009A13E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8ABEE2363ADB5009A13E7 /* AppDelegate.swift */; };
 		26D8ABF12363ADB5009A13E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8ABF02363ADB5009A13E7 /* SceneDelegate.swift */; };
-		26D8ABF32363ADB5009A13E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8ABF22363ADB5009A13E7 /* ViewController.swift */; };
 		26D8ABF62363ADB5009A13E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D8ABF42363ADB5009A13E7 /* Main.storyboard */; };
 		26D8ABF82363ADB5009A13E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D8ABF72363ADB5009A13E7 /* Assets.xcassets */; };
 		26D8ABFB2363ADB5009A13E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D8ABF92363ADB5009A13E7 /* LaunchScreen.storyboard */; };
+		26D8AC052363AE43009A13E7 /* DialerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC042363AE43009A13E7 /* DialerViewController.swift */; };
+		26D8AC072363AE53009A13E7 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC062363AE53009A13E7 /* EmergencyViewController.swift */; };
+		26D8AC0C2363AE8D009A13E7 /* HistoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC0B2363AE8D009A13E7 /* HistoriesTableViewController.swift */; };
+		26D8AC0F2363AED8009A13E7 /* SimilarContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC0E2363AED8009A13E7 /* SimilarContactTableViewCell.swift */; };
+		26D8AC112363AF62009A13E7 /* EmergencyContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC102363AF62009A13E7 /* EmergencyContactTableViewCell.swift */; };
+		26D8AC132363AF7A009A13E7 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC122363AF7A009A13E7 /* ContactTableViewCell.swift */; };
+		26D8AC152363AF87009A13E7 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC142363AF87009A13E7 /* HistoryTableViewCell.swift */; };
+		26D8AC172363B533009A13E7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8AC162363B533009A13E7 /* ContactsViewController.swift */; };
+		26EB24CE23664FAF00E39C14 /* Helper Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB24CD23664FAF00E39C14 /* Helper Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26D8ABEB2363ADB5009A13E7 /* TheNewDialer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNewDialer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D8ABEE2363ADB5009A13E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D8ABF02363ADB5009A13E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26D8ABF22363ADB5009A13E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26D8ABF52363ADB5009A13E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26D8ABF72363ADB5009A13E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D8ABFA2363ADB5009A13E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D8ABFC2363ADB5009A13E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D8AC042363AE43009A13E7 /* DialerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialerViewController.swift; sourceTree = "<group>"; };
+		26D8AC062363AE53009A13E7 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		26D8AC0B2363AE8D009A13E7 /* HistoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriesTableViewController.swift; sourceTree = "<group>"; };
+		26D8AC0E2363AED8009A13E7 /* SimilarContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarContactTableViewCell.swift; sourceTree = "<group>"; };
+		26D8AC102363AF62009A13E7 /* EmergencyContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactTableViewCell.swift; sourceTree = "<group>"; };
+		26D8AC122363AF7A009A13E7 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		26D8AC142363AF87009A13E7 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		26D8AC162363B533009A13E7 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		26EB24CD23664FAF00E39C14 /* Helper Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,63 @@
 		26D8ABED2363ADB5009A13E7 /* TheNewDialer */ = {
 			isa = PBXGroup;
 			children = (
-				26D8ABEE2363ADB5009A13E7 /* AppDelegate.swift */,
-				26D8ABF02363ADB5009A13E7 /* SceneDelegate.swift */,
-				26D8ABF22363ADB5009A13E7 /* ViewController.swift */,
+				26EB24CF23664FC200E39C14 /* Helpers */,
+				26D8AC0D2363AE92009A13E7 /* TableViewCells */,
+				26D8AC082363AE57009A13E7 /* TableViewControllers */,
+				26D8AC032363AE1A009A13E7 /* ViewControllers */,
+				26D8AC022363AE03009A13E7 /* Delegates */,
 				26D8ABF42363ADB5009A13E7 /* Main.storyboard */,
 				26D8ABF72363ADB5009A13E7 /* Assets.xcassets */,
 				26D8ABF92363ADB5009A13E7 /* LaunchScreen.storyboard */,
 				26D8ABFC2363ADB5009A13E7 /* Info.plist */,
 			);
 			path = TheNewDialer;
+			sourceTree = "<group>";
+		};
+		26D8AC022363AE03009A13E7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				26D8ABEE2363ADB5009A13E7 /* AppDelegate.swift */,
+				26D8ABF02363ADB5009A13E7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		26D8AC032363AE1A009A13E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D8AC162363B533009A13E7 /* ContactsViewController.swift */,
+				26D8AC042363AE43009A13E7 /* DialerViewController.swift */,
+				26D8AC062363AE53009A13E7 /* EmergencyViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26D8AC082363AE57009A13E7 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D8AC0B2363AE8D009A13E7 /* HistoriesTableViewController.swift */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		26D8AC0D2363AE92009A13E7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				26D8AC0E2363AED8009A13E7 /* SimilarContactTableViewCell.swift */,
+				26D8AC102363AF62009A13E7 /* EmergencyContactTableViewCell.swift */,
+				26D8AC122363AF7A009A13E7 /* ContactTableViewCell.swift */,
+				26D8AC142363AF87009A13E7 /* HistoryTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		26EB24CF23664FC200E39C14 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26EB24CD23664FAF00E39C14 /* Helper Functions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D8ABF32363ADB5009A13E7 /* ViewController.swift in Sources */,
+				26EB24CE23664FAF00E39C14 /* Helper Functions.swift in Sources */,
+				26D8AC052363AE43009A13E7 /* DialerViewController.swift in Sources */,
 				26D8ABEF2363ADB5009A13E7 /* AppDelegate.swift in Sources */,
+				26D8AC0C2363AE8D009A13E7 /* HistoriesTableViewController.swift in Sources */,
+				26D8AC172363B533009A13E7 /* ContactsViewController.swift in Sources */,
+				26D8AC152363AF87009A13E7 /* HistoryTableViewCell.swift in Sources */,
+				26D8AC112363AF62009A13E7 /* EmergencyContactTableViewCell.swift in Sources */,
+				26D8AC0F2363AED8009A13E7 /* SimilarContactTableViewCell.swift in Sources */,
+				26D8AC132363AF7A009A13E7 /* ContactTableViewCell.swift in Sources */,
+				26D8AC072363AE53009A13E7 /* EmergencyViewController.swift in Sources */,
 				26D8ABF12363ADB5009A13E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
